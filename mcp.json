@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp": {
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/YOUR_USERNAME/aws-pricing-calculator-mcp", "aws-pricing-calculator-mcp"],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
