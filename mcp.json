@@ -1,10 +1,20 @@
 {
   "mcpServers": {
     "mcp": {
+     "aws-pricing-calculator": {
       "command": "uvx",
-      "args": ["--from", "git+https://github.com/elchanio-76/aws-pricing-calculator-mcp", "aws-pricing-calculator-mcp"],
+      "args": [
+        "--from",
+        "elchanio76-aws-pricing-calculator-mcp",
+        "aws-pricing-calculator-mcp"
+      ],
       "disabled": false,
-      "autoApprove": ["*"]
+      "autoApprove": [
+        "discover_services",
+        "get_region_name",
+        "save_estimate",
+        "build_estimate"
+      ]
     }
   }
 }
