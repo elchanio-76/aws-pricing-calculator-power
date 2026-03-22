@@ -1,7 +1,6 @@
 {
   "mcpServers": {
     "mcp": {
-     "aws-pricing-calculator": {
       "command": "uvx",
       "args": [
         "--from",
@@ -16,6 +15,5 @@
         "build_estimate"
       ]
     }
-   }
   }
 }
